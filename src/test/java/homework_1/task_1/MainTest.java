@@ -1,6 +1,9 @@
 package homework_1.task_1;
+import homework_5_editForTests.Person;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
+
+import java.util.List;
 
 
 public class MainTest {
@@ -8,6 +11,8 @@ public class MainTest {
     @Test
     public void testProfitCalculation() {
         // given
+        Person person = new Person();
+        List
         float deposit = 20000;
         int year = 1;
         float percent = 10;
